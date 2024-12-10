@@ -35,7 +35,7 @@ const Navbar = () => {
 				<div className='flex justify-between items-center py-3'>
 					<div className='flex items-center space-x-4'>
 						<Link to='/'>
-							<img className='h-8 rounded' src='/small-logo.png' alt='LinkedIn' />
+							<h1 className='w-auto rounded font-bold text-xl text-purple-800'>JobMatch</h1>
 						</Link>
 					</div>
 					<div className='flex items-center gap-2 md:gap-6'>
@@ -50,7 +50,7 @@ const Navbar = () => {
 									<span className='text-xs hidden md:block'>My Network</span>
 									{unreadConnectionRequestsCount > 0 && (
 										<span
-											className='absolute -top-1 -right-1 md:right-4 bg-blue-500 text-white text-xs 
+											className='absolute -top-1 -right-1 md:right-4 bg-purple-700 text-white text-xs 
 										rounded-full size-3 md:size-4 flex items-center justify-center'
 										>
 											{unreadConnectionRequestsCount}
@@ -62,7 +62,7 @@ const Navbar = () => {
 									<span className='text-xs hidden md:block'>Notifications</span>
 									{unreadNotificationCount > 0 && (
 										<span
-											className='absolute -top-1 -right-1 md:right-4 bg-blue-500 text-white text-xs 
+											className='absolute -top-1 -right-1 md:right-4 bg-purple-500 text-white text-xs 
 										rounded-full size-3 md:size-4 flex items-center justify-center'
 										>
 											{unreadNotificationCount}
