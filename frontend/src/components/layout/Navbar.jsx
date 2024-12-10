@@ -35,7 +35,7 @@ const Navbar = () => {
 				<div className='flex justify-between items-center py-3'>
 					<div className='flex items-center space-x-4'>
 						<Link to='/'>
-							<h1 className='w-auto rounded font-bold text-xl text-purple-800'>JobMatch</h1>
+							<h1 className='w-auto rounded font-bold text-xl text-purple-700 tracking-wide'>JOBMATCH</h1>
 						</Link>
 					</div>
 					<div className='flex items-center gap-2 md:gap-6'>
